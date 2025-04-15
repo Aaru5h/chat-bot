@@ -2,7 +2,7 @@
 import React, { useState, useContext } from 'react'
 import Link from 'next/link'
 import { AuthContext } from '@/context/auth'
-// import { login } from '@/services/auth' // if using a login service
+import { login } from '@/services/auth' // if using a login service
 
 const Login = () => {
   const [email, setEmail] = useState('')

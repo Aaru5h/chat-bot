@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useContext } from 'react'
 import Link from 'next/link'
-// import { signup } from '@/services/auth' // optional
+import { signup } from '@/services/auth' // optional
 import { AuthContext } from '@/context/auth' 
 
 const SignUp = () => {
