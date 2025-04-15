@@ -1,7 +1,15 @@
+// {
+//   "compilerOptions": {
+//     "paths": {
+//       "@/*": ["./src/*"]
+//     }
+//   }
+// }
 {
   "compilerOptions": {
+    "baseUrl": ".",  // Explicitly set base URL to root
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]  // Alias for src folder
     }
   }
 }
